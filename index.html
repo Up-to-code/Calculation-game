@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geam </title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        nav{
+            background: #f55843;
+            width: 100%;
+            height: 50px;
+            box-shadow: 0px 1px 10px  #e0e0e0e0;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            color: white;
+            font-weight: bolder;
+        }
+section{
+    background: #EEe;
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.box2{
+    width: 100%;
+    height: 50%;
+}
+.na{
+    background: #ffa837;
+    width: 100px ;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0px 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.n2{
+    background: #37c0ff;
+    width: 100px ;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0px 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end{
+    background: #ff3737;
+    width: 100px ;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0px 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.nabrs{
+    background: #ffa837;
+    width: 100px ;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 30px;
+}.rot{
+    background: #ffa837;
+    background: #ff3737;
+    background: #ff4b90;
+    background: #ff6637;
+}
+
+.input{
+  width: 200px;
+  border-radius: 5px;
+  border: solid 2px #f55843;
+ background: #EEe;
+ height: 40px;
+ margin-bottom: 20px;
+ font-weight: bolder;
+ font-size: 18px;
+ padding: 10px 10px ;
+}
+button{
+    width: 100px;
+  border-radius: 5px;
+  border: solid 0px #ff6637;
+ background: #ffa837;
+ height: 40px;
+ margin-bottom: 20px;
+ color: white;
+ margin-left: 20px;
+} 
+
+.valeos{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+   <nav>
+    My Geam
+   </nav> 
+   <section>
+<div class="box1">
+       <div class="na" id="na">
+        <p id="feirsnaber">
+
+        </p>
+       </div>
+       <div class="plas">
+        +
+       </div>
+       <div class="n2" id="endnabers">
+        50
+       </div>
+       <div class="ec">
+        =
+       </div>
+       <div class="end" id="end">
+        ?
+       </div>
+       
+</div>
+<div class="valeos">
+<input type="number" class="input" id="input">
+ <button id="btn">on</button>
+</div>
+<div class="box2">
+<div class="grid" id="allBoxs">
+    </div>
+   </section>
+   <script src="main.js"></script>
+</body>
+</html>
